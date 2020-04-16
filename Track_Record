@@ -18,4 +18,21 @@ Reference :
 
 ===============	
 
- 
+Date : 16/04/2020
+
+	- Configuring metadata
+	- Instantiating container
+	- Using the container
+	- Naiming Bean
+	- Aliasing a Bean
+	- Instantiating Bean 
+		1. With Constructor
+		2. With Static Factory Method
+		3. With Instance Fctory Method
+	- Dependency Injection
+		1. Constructor-based
+		2. Setter-based
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
