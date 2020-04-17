@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main Bean element -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+
+	<!-- Constructor argument type matching -->
+	<bean id="emp" class="com.savan.model.Employee" >
+		<constructor-arg type="java.lang.String" value="savan" ></constructor-arg>
+		<constructor-arg type="double" value="100000" ></constructor-arg>
+		<constructor-arg>
+			<list value-type="java.lang.String" >
+				<value>Vandemataram Febula</value>
+				<value>Ahmedabad</value>
+				<value>Gujarat</value>
+				<value>India</value>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	
+
+</beans>

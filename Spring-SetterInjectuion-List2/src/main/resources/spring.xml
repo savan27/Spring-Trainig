@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main Bean element -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+
+	<!-- Employee bean -->
+	<bean id="emp" class="com.savan.model.Employee" >
+		<property name="Firstname" value="savan" ></property>
+		<property name="salary" value="100000" ></property>
+		<property name="address">
+			<list>
+				<ref bean="add1"/>
+				<ref bean="add2"/>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Address bean 1 -->
+	<bean id="add1" class="com.savan.model.Address" >
+		<property name="street" value="Vandemataram Febula" ></property>
+		<property name="city" value="Ahmedabad" ></property>
+		<property name="state" value="Gujarat" ></property>
+		<property name="country" value="India" ></property>
+	</bean>
+	
+	<!-- Address bean 2 -->
+	<bean id="add2" class="com.savan.model.Address" >
+		<property name="street" value="Inexture Solution" ></property>
+		<property name="city" value="Ahmedabad" ></property>
+		<property name="state" value="Gujarat" ></property>
+		<property name="country" value="India" ></property>
+	</bean>
+	
+	
+
+</beans>

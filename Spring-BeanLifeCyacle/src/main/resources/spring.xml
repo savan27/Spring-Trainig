@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main Bean element -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+
+	<!-- Inner bean representing the class  -->
+	<bean id="emp" class="com.savan.model.Employee" init-method="init" destroy-method="destroy" >
+		<property name="Firstname" value="Savan"></property>
+		<property name="Lastname" value="Vaishnav"></property>
+	</bean>
+	
+	
+
+</beans>

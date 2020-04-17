@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main Bean element -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+	
+	<!-- Employee bean -->
+	<bean id="emp" class="com.savan.model.Employee" >
+		<constructor-arg name="massage1" value="savan" ></constructor-arg>
+		<constructor-arg name="massage2" value="Vaishnav" ></constructor-arg>
+	</bean>
+	
+	<!-- Address bean -->
+	<bean id="add" class="com.savan.model.Address" parent="emp">
+		<constructor-arg name="massage1" value="savan" ></constructor-arg>
+		<constructor-arg name="massage3" value="Codder" ></constructor-arg>
+	</bean>
+	
+	
+
+</beans>

@@ -36,3 +36,39 @@ Date : 16/04/2020
 Reference :
 
 	- Spring offical Documentation (5.2.5)
+
+===============	
+
+Date : 17/04/2020
+
+	- Bean Life Cycle
+		- Initialisation Callback
+		- Destruction Callback
+		- Post Processors
+	- Dependency Configuration
+		- primitive and String-based values
+		- Reference Bean (Collaborators)
+		- Inner Bean
+		- Collection
+		- Collection Merging(inheritance)
+		- Null and Empty String Values
+		- XML Shortcuts with the p-namespace
+		- XML Shortcuts with the c-namespace
+	- Depends-On
+	- Lazy-initialised Beans
+	- Autowiring Collaborators
+		- none
+		- ByName
+		- ByType
+		- ByConstructor
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	- javaTpoint
+	- tutorialsPoint
+
+===============	
+
+		
+
