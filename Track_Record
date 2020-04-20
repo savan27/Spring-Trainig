@@ -14,7 +14,7 @@ Date : 15/04/2020
 Reference :
 
 	- Spring offical Documentation (5.2.5)
-	- Durgasoft Spring Tutorial Introduction part (youtube)
+	- Durgasoft Spring Tutorial Introduction-parts (youtube)
 
 ===============	
 
@@ -69,6 +69,38 @@ Reference :
 	- tutorialsPoint
 
 ===============	
+
+Date : 20/04/2020
+
+	- Method Injection
+		- Lookup method 
+		- Method replacement
+		- ApplicationContexAware
+	- Bean Scopes
+		- Singleton 
+		- Prototype
+		- Request
+		- Session
+		- Global
+	- Customising the nature of bean
+	- Bean Definition inheritance
+	- Container Extension Points
+	- Annotation-based Container Configuration
+		- @Required 
+		- @Autowired 
+		- @Qualifire 
+		- JSR-250 Annotations
+			- @PostConstruct
+			- @PreDestroy
+			- @Resource
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	- http://www.wideskills.com/spring/method-injection-in-spring
+	- tutorialsPoint
+
+===============
 
 		
 

@@ -1,6 +1,6 @@
 package com.savan.main;
 
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.savan.model.Employee;
@@ -14,16 +14,14 @@ public class EmployeeMain {
 	public static void main(String[] args) {
 		
 		//create and configure the bean
-		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 		
 		//retrieve configuration instance 
-		 Employee bean = context.getBean("emp",Employee.class);
+		Employee bean = context.getBean("emp",Employee.class);
 		
 		//use Configuration instance
-		bean.display();
+		bean.print();
 		
-		//call the relevant destroy methods for graceful shutdown
-		context.registerShutdownHook();
 	}
 
 }

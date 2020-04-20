@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.savan</groupId>
-  <artifactId>SpringBeanInstanceWithConstructor</artifactId>
+  <artifactId>Spring-Method-Injection-lookup</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>SpringBeanInstanceWithConstructor</name>
+  <name>Spring-Method-Injection-lookup</name>
   <url>http://maven.apache.org</url>
 
   <properties>
