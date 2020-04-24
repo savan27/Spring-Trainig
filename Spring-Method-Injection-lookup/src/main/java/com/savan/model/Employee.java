@@ -9,6 +9,7 @@ package com.savan.model;
  */
 public abstract class Employee {
 	
+	
 	//abstract method to get current instance 
 	public abstract Address getAddress();
 	

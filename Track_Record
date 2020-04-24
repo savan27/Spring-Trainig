@@ -102,5 +102,100 @@ Reference :
 
 ===============
 
-		
+Date : 21/04/2020
+
+	- configuration File 
+	- Property File
+	- Classpath scanning and Managed Components
+		- Stereotype Annotations
+			- @component
+			- @controller
+			- @service
+			- @Repository
+		- Automatically Detaching class and register Bean Definition
+		- filter to customise scanning
+		- naming auto-detected components
+		- providing qualifier metadata with annotation
+	- Using JSR-330 Standard Annotation 
+		- Dependency injection using @inject,@named and @managedbean
+	- Difference JSR 330 vs JSR 250
+	- Java base Container Configuration
+		- AnnotationConfigApplicationContext
+		- @bean
+			- declaration
+			- life-cycle callback
+			- scope
+			- customised name
+			- aliasing
+			- Description
+		- @configuration
+		- @componentScan
+	- Perform practical based on theory
+
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	
+===============
+
+Date : 22/04/2020
+	
+	- Enviroment Abstraction
+		- Bean Defination profiles
+			- @profile
+			- setActiveProfile
+		- Property source Abstraction
+		- @propertySource
+	- Registering a LoadTimeWeare
+	- additional capabilities of the applicationContext
+	- The BeanFactory of ApplicationContext
+	- Perform practical based on theoryn
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	
+===============
+
+Date : 22/04/2020
+
+	- Learning Resource interface
+	- Built in resource implementation
+		- uri
+		- classpath
+		- file
+		- InputStream
+		- ByteArrayResource
+		- ServletContextResource
+	- Learning Resource Loader 
+		- getResource()
+	- ResourceLoaderAware interface
+		- setResourceLoader()
+	- Resource dependency		
+	- Application Contexts and resource paths
+		- ClassPathXmlApplicationContext
+		- FileSystemXmlApplicationContext
+	- Wildcards in Application Context Constructor Resource path
+	- Perform practical based on theory
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	
+===============		
+
+Date : 22/04/2020
+
+	- Spring STACK implimentation program
+	- Spring Validator interface
+	- Bean Manipulation and BeanWrapper
+	- setting ans getting basic nested properties
+	- Perform practical based on theory
+
+Reference :
+
+	- Spring offical Documentation (5.2.5)
+	
+===============
 

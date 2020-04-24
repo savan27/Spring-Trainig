@@ -18,7 +18,7 @@ public class EmployeeMain {
 		
 		//retrieve configuration instance 
 		Employee bean = context.getBean("emp",Employee.class);
-		
+
 		//use Configuration instance
 		bean.print();
 		
