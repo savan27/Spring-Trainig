@@ -158,7 +158,7 @@ Reference :
 	
 ===============
 
-Date : 22/04/2020
+Date : 23/04/2020
 
 	- Learning Resource interface
 	- Built in resource implementation
@@ -185,7 +185,7 @@ Reference :
 	
 ===============		
 
-Date : 22/04/2020
+Date : 24/04/2020
 
 	- Spring STACK implimentation program
 	- Spring Validator interface
@@ -196,6 +196,51 @@ Date : 22/04/2020
 Reference :
 
 	- Spring offical Documentation (5.2.5)
+	
+===============
+
+Date : 27/04/2020
+
+	- Start learning Spring MVC
+	- Reffering some Spring Hibernate Project For UnderStanding
+	- Understand the folder structure 
+	- Create simple demo of MVC structure 
+	- learn and impliment Dispatecher Servlet 
+	- learn and used annotation 
+		- @RequestMapping
+		- @ResponseBody	
+		- @Controller
+
+Reference :
+
+	-  youtube tutorial videos(selenium Express)
+	
+===============
+
+Date : 28/04/2020
+
+	- Understand and use view resolver
+	- Create project structure
+	- Demo using hibernate and Spring MVC
+	- change in hiernate configuration (in progress)
+	- perform practices based on theory 
+
+Reference :
+
+	-  youtube tutorial videos(selenium Express)
+	
+===============
+
+Date : 29/04/2020
+
+	- Changes in configuration according the guidance
+	- learning generic pattern 
+	- Implementation based on theory 
+
+Reference :
+
+	- https://www.baeldung.com/hibernate-5-spring	(Hibernate Configuration)
+	- http://websystique.com/spring/spring4-hibernate4-mysql-maven-integration-example-using-annotations/	(CRUD Demo)
 	
 ===============
 
