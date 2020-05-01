@@ -244,7 +244,21 @@ Reference :
 	
 ===============
 
-Date : 29/04/2020
+Date : 30/04/2020
+
+	- Solved errors in generics implementation
+	- learning template freemarker template engine
+	- configure the freemarker using java class
+	- create the .ftl files and perform CRUD
+	- Implementation based on theory 
+
+Reference :
+
+	- https://freemarker.apache.org/ 	(freemarker)
+	
+===============
+
+Date : 01/05/2020
 
 	- start coding for project
 	- working on login-register functionality
