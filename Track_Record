@@ -244,3 +244,19 @@ Reference :
 	
 ===============
 
+Date : 29/04/2020
+
+	- start coding for project
+	- working on login-register functionality
+	- create login and register page with url mapping
+	- create entity mapping using hibernate
+	- manage static data through code for association
+	- manage front end validation in .ftl files
+	- manage multiple addresses in front-end
+	- working on storing image at register time 
+
+Reference :
+
+	- 
+	
+===============
